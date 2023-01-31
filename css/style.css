@@ -84,12 +84,9 @@ cursor: pointer;
     padding:50px 10px;
 }
 .banner img{
-    border-radius: 65px ;
-    padding-top: .9cm;
-    padding-bottom: .5cm;
-    padding-left: 0.8cm;
-    padding-right: 0.8cm;
-    max-width: 100%;
+    padding:20px;
+    border-radius: 50px;
+    
 }
 .banner h1,
 .banner h2,
