@@ -124,7 +124,7 @@ cursor: pointer;
 
 }
 .container img{
-    width: auto;
+    width:fit-content;
     
 }
 #yeah h3{
@@ -136,13 +136,14 @@ cursor: pointer;
 }
 #yeah p{
     text-align: center;
+    margin-left: .5cm;
     font-size: 22px;
     max-width: fit-content;
 }
 
 
 #Kemampuan{
-    padding:40px;
+    padding:50px;
     background-color: rgb(45, 45, 45);
     
 }
