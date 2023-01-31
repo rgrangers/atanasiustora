@@ -128,13 +128,13 @@ cursor: pointer;
 }
 .container img{
     width: auto;
-    max-width: fit-content;
+    max-width:  100%;
 }
 #yeah h3{
     text-align: center;
     margin:20px;
     padding: 20px;
-    font-size: 2.21vw;
+    font-size: 2.21em;
     color: black;
 }
 #yeah p{
