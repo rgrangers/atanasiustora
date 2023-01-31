@@ -1,231 +1,136 @@
-*{
-    padding:0;
-    margin:0;
-   color:black;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-header {
-    height:72px;
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Atanasius Tora</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body>
+        <input type="checkbox" id="check">
+        <div class="sidebar">
+            <ul>
+                <li><a href="">Tentang</a></li>
+                <li><a href="">Kemampuan</a></li>
+                <li><a href="">Pengalaman</a></li>
+                <li><a href="">Prestasi & Penghargaan</a></li>
+                <li><a href="">Kontak</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+            <h1><a href="">Hai, Salam Kenal!</a></h1>
+            <ul>
+                <li><a href="">Tentang</a></li>
+                <li><a href="">Kemampuan</a></li>
+                <li><a href="">Pengalaman</a></li>
+                <li><a href="">Prestasi & Penghargaan</a></li>
+                <li><a href="">Kontak</a></li>
+            </ul>
+            <label for="check" class="mobile-menu"><i class="fa fa-bars fa-3x" aria-hidden="true" ></i></label>
+        </div>
+        </header>
+        <section class="banner">
+            <div class="container">
+                <br>
+                <br>
+                <br>
+                <img src="img/tr.jpg">
+                <img src="img/Screenshot_20230116-112655_Instagram.jpg">
+                <img src="img/PicsArt_09-03-12.26.06.jpg">
+                <img src="img/IMG_20220914_003506_442.jpg">
+                <br>
+                <br>
+                <br>
+                <h1 align="center">Perkenalkan saya, Atanasius Tora Rangga Kaleka<br>
+                </h1>
+                <h2 align="center">
+                     Saya adalah mahasiswa Teknik Fisika Universitas Gadjah Mada</h2>
+<br>
+                <p>
+                    "Sinergi antara Teknologi dan Kemanusiaan"</p>
+                    <br> 
+            
     
-}
-header h1 {
-    
-    display: inline-block;
-    padding: 16px 24px;
+                </div>
+            </section>
+                <section id="karst">
+                    <div class="container">
+                        <h3> Penjelajahan anda akan segera dimulai!</h3>
+                    </div>
+                    
+                </section>
+                   
+            
+        
+        <section id="yeah">
+            <div class="container">
+                
+                <img src="img/IMG_0909-removebg.png" style="float:left">
+                
 
-}
-    header h1 a{
-        transition: .8s;
-    }
+                <br>
+                <h3>Tentang Tora Rangga</h3>
+                   
+                   <br>
 
-header h1 a:hover{
-    color:rgb(60, 130, 170)
-}
-header ul {
-   
-    float: right;
-}
-header ul li{
-    
-    padding: 25px;
-    display: inline-block;
-}
-header ul li a{
-    transition: .7s;
-}
-header ul li a:hover {
-    color:rgb(60, 130, 170)
-}
-a{
-    text-decoration :none ;
-}
-.container {
-    width:90%;
-    margin:0 auto;
-    
-}
-.container::after {
-content: " ";
-display: block;
-clear:both;
-}
-.mobile-menu{
-    float: right;
-    display: none;
-    padding: 11px;
+                   <p>Saya menyukai tantangan dan hal baru. Saya memiliki ketertarikan pada dunia engineering dan fisika. Selain itu, menjadi pengabdi merupakan hal yang sangat menyenangkan dan berkesan bagi saya terutama pada aspek pendidikan, kemanusiaan, dan lingkungan di Indonesia terkhususnya D.I.Yogyakarta. Banyak kegiatan sosial yang saya ikuti dan memberikan manfaat bagi saya. Menjadi pemerhati pendidikan dan lingkungan membuat saya sangat tenang dalam menjalani kehidupan. 
+        <br>
 
-    
-}
-.mobile-menu :hover{
-    transition: 2s;
-cursor: pointer;
-}
+        <br>
+                Berbicara tentang teknik fisika, jurusan ini telah memberikan saya banyak pengalaman berharga, memberikan berbagai sudut pandang dalam menjelajah luasnya dunia melalui fisika. Engineering merupakan basis dari teknologi dan fisika merupakan bagian yang penting dalam irisan ilmu pengetahuan yang memajukan peradaban. Bidang keahlian saya adalah coding, desain, analisis ststistik, public speaking, literasi ilmiah, dan copywriting.
+                </p>
+                <br>
+                <br>
+                </div>
+            </section>
+        <section id="Kemampuan">
+<div class="container">
+    <br>
+    <br>
+    <h3>Kemampuan</h3>
+    <br>
+    <h4> HTML </h4>
+    <div class="bar">
+        <span class="yes k1"></span>
+    </div>
+    <h4> CSS </h4>
+    <div class="bar">
+        <span class="yes k2"></span>
+    </div>
+    <h4> Analisis Statistik </h4>
+    <div class="bar">
+        <span class="yes k3"></span>
+    </div>
+    <h4> Public Speaking </h4>
+    <div class="bar">
+        <span class="yes k4"></span>
+    </div>
+    <h4> Literasi Ilmiah </h4>
+    <div class="bar">
+        <span class="yes k5"></span>
+    </div>
+    <h4> Copywriting </h4>
+    <div class="bar">
+        <span class="yes k6"></span>
+    </div>
+    <br>
+    <br>
+    <br><br><br><br>
+</div>
 
-#check{
-    display: none;
-}
-.sidebar{
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:-300px;
-    width:300px;
-    background-color: rgb(66, 66, 66);
-    transition: .4s;
-}
-#check:checked ~ .sidebar{
-    left:0;
-    
-}
-.banner{
-    background-color: black;
-}
-.section{
-    padding:50px 10px;
-}
-.banner img{
-    border-radius: 65px ;
-    padding-top: .9cm;
-    padding-bottom: .5cm;
-    padding-left: 0.8cm;
-    padding-right: 0.8cm;
-    max-width: fit-content;
-}
-.banner h1,
-.banner h2,
-.banner p{
-    padding-bottom: 2.4cm;
-    font-size: x-large;
-    color:rgb(245, 245, 245);
-    text-align: center;
-    
-}
-.banner h1{
-    font-size: 35px;
-    padding-bottom: .6cm;
-}
-.banner h2{
-    font-size: 25px;
-    padding-bottom:.2cm;
-}
-#karst{
-    background-color: rgb(70, 66, 66);
-    padding:20px;
-}
-#karst h3{
-    padding:20px;
-    color:rgb(255, 255, 255);
- text-align: center;
-    font-size:2.2em;
-}
-#yeah{
-    padding-top: 50px;
-}
-#yeah .container{
-    padding:0;
-    margin:0;
+</section>
 
-}
-.container img{
-    width: auto;
-    max-width:  100%;
-}
-#yeah h3{
-    text-align: center;
-    margin:20px;
-    padding: 20px;
-    font-size: 2.21em;
-    color: black;
-}
-#yeah p{
-    text-align: center;
-    font-size: x-large;
-}
-
-
-#Kemampuan{
-    padding:40px;
-    background-color: rgb(45, 45, 45);
-    
-}
-#Kemampuan h3{
-    color:rgb(255, 255, 255);
-    font-size: 2.21em;
-    text-align: center;
-}
-#Kemampuan h4{
-    color:white;
-    margin:0px;
-    padding-top:1.5em;
-    padding-bottom: .5em;
-    font-size: 1.7vw;
-}
-#Kemampuan .bar{
-    height: 1.1em;
-    background-color: rgb(252, 96, 96);
-    width:100%;
-    margin-bottom: auto;
-    
-}
-.bar .yes{
-    height:1.1em;
-    background-color: rgb(255, 193, 171);
-    display: inline-block;
-    
-}
-.k1{
-    width:60%
-}
-.k2{
-    width:50%
-}
-.k3{
-    width:70%
-}
-.k4{
-    width:80%
-}
-.k5{
-    width:90%
-}
-.k6{
-    width:80%
-}
-
-#lanjutan{
-    background-color: rgb(255, 255, 255);
-}
-#lanjutan .container{
-    padding:30px;
-    color: black;
-}
-#lanjutan h3{
-    text-align: center;
-    font-size: 2em;
-    
-}
-
-
-
-
-
-@media (max-width: 1200px){
-    .mobile-menu{
-        display: block;
-    }
-    header ul{
-        display: none;
-    }
-    .sidebar ul li a {
-        color:rgb(254, 254, 254)
-    }
-    .sidebar ul li {
-        padding:24px;
-        transition: .2s;
-        transition-property: background-color;
-    }
-    .sidebar ul li:hover{
-        background-color: rgb(93, 93, 93);
-    }
-    
-}
+<section id="lanjutan">
+    <div class="container">
+        <h3>Anda akan Menjelajah Lebih Dalam, Persiapkan Dirimu</h3>
+    </div>
+</section>
+        
+            
+        
+            
+        
+    </body>
+</html>
